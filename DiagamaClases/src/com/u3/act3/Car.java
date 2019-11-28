@@ -6,6 +6,8 @@ public class Car  {
     private String placas;
     private int deposito;
     private int tarifa;
+    private  int fechaReservacion;
+    private  int litrosGasolina;
 
     public Car(String newMake, String newModelo, String newPlacas,
                int newDeposito, int newTarifa) {

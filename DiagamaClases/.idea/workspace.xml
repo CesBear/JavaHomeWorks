@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ccfb7f7-01bf-4243-affe-f1fe72242335" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/u3/act3/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/u3/act3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/u3/act3/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/u3/act3/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/u3/act3/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/u3/act3/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/u3/act3/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +74,7 @@
       <updated>1574643110776</updated>
       <workItem from="1574643113264" duration="4895000" />
       <workItem from="1574961900049" duration="489000" />
-      <workItem from="1574965641645" duration="436000" />
+      <workItem from="1574965641645" duration="2814000" />
     </task>
     <servers />
   </component>

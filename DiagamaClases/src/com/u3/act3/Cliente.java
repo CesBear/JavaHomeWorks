@@ -6,6 +6,7 @@ public class Cliente {
     private String nombre;
     private String direccion;
     private int telefono;
+    private String reservaciones;
 
     public Cliente(String nombreCliente, String direccionCliente, int rfcCliente, int telefonoCliente) {
 

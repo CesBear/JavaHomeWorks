@@ -5,8 +5,8 @@ import java.util.*;
 public class main {
     public static void main(String[] args) {
 
-        Collection<Car> listaDeCarros = new HashSet<>();
 
+        Collection<Car> listaDeCarros = new HashSet<>();
         listaDeCarros.add(new Car("Toyota", "Camri", "SJC2456X", 100, 60));
         listaDeCarros.add(new Car("Toyota", "RAV4", "SJG9523B", 100, 50));
         listaDeCarros.add(new Car("Nissan", "March", "SJB7412B", 100, 50));
@@ -25,11 +25,11 @@ public class main {
             if (model.equals(s.getModelo())) {
                 System.out.println("El modelo " + model + " esta disponible");
                 System.out.print("Cuantos dìas planea rentar?: ");
-                int days = input.nextInt();
+                int dias = input.nextInt();
                 System.out.println("*************** Detalles *****************");
-                int cost = (days * s.getTarifa()) + s.getDeposito();
+                int costo = (dias * s.getTarifa()) + s.getDeposito();
                 System.out.println("Deposito  TarifaDiaria  Duracion  CostoTotal");
-                System.out.println(s.getDeposito() + "       " + s.getTarifa() + "            " + days + "        " + cost);
+                System.out.println(s.getDeposito() + "       " + s.getTarifa() + "            " + dias + "        " + costo);
                 System.out.print("Proceder a la renta?( s/n ): ");
                 String dec = input.next();
                 if (dec.equals("s")) {
@@ -40,12 +40,19 @@ public class main {
                     System.out.println("************ Recibo *************");
                     System.out.println("Nombre   ICNo   Carro  RegNo Duracion   Costo");
                     System.out.println(name + "   " + num + "   " + model
-                            + "   " + s.getPlacas() + "   " + days + "   " + cost);
+                            + "   " + s.getPlacas() + "   " + dias + "   " + costo);
                     System.out.println("Sirviendo Cliente Siguiente ");
                 } else if (dec.equals("n")) {
                     System.out.println("Sirviendo Cliente Siguiente ");
                 }
             }
+        }
+
+        Collection<Cliente> cliente = new HashSet<>();
+
+        for (Cliente c  : cliente) {
+
+
         }
     }
 }
